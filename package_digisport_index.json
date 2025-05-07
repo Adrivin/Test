@@ -14,10 +14,10 @@
             "architecture": "nrf52",
             "version": "0.1",
             "category": "Contributed",
-            "url": "https://raw.githubusercontent.com/Adrivin/Test/main/0.1.0.zip",
-            "archiveFileName": "0.1.0.zip",
-            "checksum": "SHA-256:0fa671a2f8bb863756a3c158fa5aa45f319d98e6a340e2b0289bcbb37e70d33c",
-            "size": "22338988",
+            "url": "https://raw.githubusercontent.com/Adrivin/Test/main/digisport-0.1.0.tar.bz2",
+            "archiveFileName": "digisport-0.1.0.tar.bz2",
+            "checksum": "SHA-256:0449819c47d57597415cc5ea1f648fe6fbb650cb454a4fecbc8c0f411da46c41",
+            "size": "20040226",
             "boards": [
               {
                 "name": "Digisport IMU"
