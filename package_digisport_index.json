@@ -1,0 +1,39 @@
+{
+    "packages": [
+      {
+        "name": "Digisport",
+        "maintainer": "Adrien Bouillon",
+        "websiteURL": "https://git.icam.fr/jerome.rocheteau/digisport",
+        "email": "adrien.bouillon@2025.icam.fr",
+        "help": {
+          "online": "https://git.icam.fr/jerome.rocheteau/digisport"
+        },
+        "platforms": [
+          {
+            "name": "Digisport Boards",
+            "architecture": "nrf52",
+            "version": "0.1",
+            "category": "Contributed",
+            "url": "https://raw.githubusercontent.com/Adrivin/Test/main/Digisport.tar.bz2",
+            "archiveFileName": "Digisport.tar.bz2",
+            "checksum": "SHA-256:e9943acd44d250b101923dcf2d550f6e0f2ef3492c7541542fd7508419fa22c7",
+            "size": "20063914",
+            "boards": [
+              {
+                "name": "Digisport IMU"
+              }
+            ],
+            "toolsDependencies": [
+                {
+                    "packager": "adafruit",
+                    "name": "nrfutil",
+                    "version": "0.5.3"
+                  }
+            ]
+          }
+        ],
+        "tools": []
+      }
+    ]
+  }
+  
