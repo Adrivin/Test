@@ -16,8 +16,8 @@
             "category": "Contributed",
             "url": "https://raw.githubusercontent.com/Adrivin/Test/main/0.1.0.tar.bz2",
             "archiveFileName": "0.1.0.tar.bz2",
-            "checksum": "SHA-256:3004ff020d634a3548954f5a9d8f07f32413781d9a89d4b5afda650ad2faa7e6",
-            "size": "20065771",
+            "checksum": "SHA-256:acca4e00ceea7615639cc1375886c1d06a7e8fae5443a636585f2051d382c00b",
+            "size": "20064282",
             "boards": [
               {
                 "name": "Digisport IMU"
