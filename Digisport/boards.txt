@@ -1,0 +1,63 @@
+menu.softdevice=SoftDevice
+menu.debug=Debug Level
+menu.debug_output=Debug Port
+
+# -----------------------------------
+# Digisport
+# -----------------------------------
+digisport.name=Digisport IMU
+
+# VID/PID for Bootloader, Arduino & CircuitPython
+digisport.vid.0=0x239A
+digisport.pid.0=0x8029
+digisport.vid.1=0x239A
+digisport.pid.1=0x0029
+
+# Upload
+digisport.bootloader.tool=bootburn
+digisport.upload.tool=nrfutil
+digisport.upload.protocol=nrfutil
+digisport.upload.use_1200bps_touch=true
+digisport.upload.wait_for_upload_port=true
+digisport.upload.maximum_size=815104
+digisport.upload.maximum_data_size=237568
+
+# Build
+digisport.build.mcu=cortex-m4
+digisport.build.f_cpu=64000000
+digisport.build.board=DIGISPORT
+digisport.build.core=nRF5
+digisport.build.variant=digisport
+digisport.build.usb_manufacturer="Digisport"
+digisport.build.usb_product="D1 IMU"
+digisport.build.extra_flags=-DNRF52840_XXAA {build.flags.usb}
+digisport.build.ldscript=nrf52840_s140_v6.ld
+digisport.build.openocdscript=scripts/openocd/daplink_nrf52.cfg
+digisport.build.vid=0x239A
+digisport.build.pid=0x8029
+
+# Menu: SoftDevice
+digisport.menu.softdevice.s140v6=S140 6.1.1
+digisport.menu.softdevice.s140v6.build.sd_name=s140
+digisport.menu.softdevice.s140v6.build.sd_version=6.1.1
+digisport.menu.softdevice.s140v6.build.sd_fwid=0x00B6
+
+# Menu: Debug Level
+digisport.menu.debug.l0=Level 0 (Release)
+digisport.menu.debug.l0.build.debug_flags=-DCFG_DEBUG=0
+digisport.menu.debug.l1=Level 1 (Error Message)
+digisport.menu.debug.l1.build.debug_flags=-DCFG_DEBUG=1
+digisport.menu.debug.l2=Level 2 (Full Debug)
+digisport.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
+digisport.menu.debug.l3=Level 3 (Segger SystemView)
+digisport.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
+digisport.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
+
+# Menu: Debug Port
+digisport.menu.debug_output.serial=Serial
+digisport.menu.debug_output.serial.build.logger_flags=-DCFG_LOGGER=0
+digisport.menu.debug_output.serial1=Serial1
+digisport.menu.debug_output.serial1.build.logger_flags=-DCFG_LOGGER=1 -DCFG_TUSB_DEBUG=CFG_DEBUG
+digisport.menu.debug_output.rtt=Segger RTT
+digisport.menu.debug_output.rtt.build.logger_flags=-DCFG_LOGGER=2 -DCFG_TUSB_DEBUG=CFG_DEBUG -DSEGGER_RTT_MODE_DEFAULT=SEGGER_RTT_MODE_BLOCK_IF_FIFO_FULL
+
