@@ -3,10 +3,10 @@
       {
         "name": "Digisport",
         "maintainer": "Adrien Bouillon",
-        "websiteURL": "https://git.icam.fr/jerome.rocheteau/digisport",
+        "websiteURL": "https://github.com/Adrivin/Test",
         "email": "adrien.bouillon@2025.icam.fr",
         "help": {
-          "online": "https://git.icam.fr/jerome.rocheteau/digisport"
+          "online": "https://github.com/Adrivin/Test"
         },
         "platforms": [
           {
@@ -32,7 +32,9 @@
             ]
           }
         ],
-        "tools": []
+        "tools": 
+          [
+          ]
       }
     ]
   }
