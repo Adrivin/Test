@@ -8,7 +8,7 @@
         "email": "adrien.bouillon@2025.icam.fr",
         "platforms": [
           {
-            "name": "Digisport Boards",
+            "name": "Digisport",
             "architecture": "nrf52",
             "version": "0.1",
             "category": "Contributed",
