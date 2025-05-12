@@ -10,7 +10,7 @@
           {
             "name": "Digisport",
             "architecture": "nrf52",
-            "version": "0.1",
+            "version": "0.1.0",
             "category": "Contributed",
             "url": "https://raw.githubusercontent.com/Adrivin/Test/main/digisport-0.1.0.zip",
             "archiveFileName": "digisport-0.1.0.zip",
