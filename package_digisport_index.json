@@ -27,22 +27,7 @@
                 "packager": "adafruit",
                 "name": "nrfutil",
                 "version": "0.5.3"
-              },
-            {
-              "packager": "arduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "7-2017q4"
-            },
-            {
-              "packager": "arduino",
-              "name": "openocd",
-              "version": "0.11.0-arduino2"
-            },
-            {
-              "packager": "adafruit",
-              "name": "nrfjprog",
-              "version": "9.4.0"
-            }
+              }
             ]
           }
         ],
