@@ -37,6 +37,11 @@
               "packager": "arduino",
               "name": "openocd",
               "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "adafruit",
+              "name": "nrfjprog",
+              "version": "9.4.0"
             }
             ]
           }
