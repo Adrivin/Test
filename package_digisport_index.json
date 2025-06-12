@@ -23,11 +23,6 @@
             ],
             "toolsDependencies":
             [
-              {
-                "packager": "adafruit",
-                "name": "nrfutil",
-                "version": "0.5.3"
-              }
             ]
           }
         ],
